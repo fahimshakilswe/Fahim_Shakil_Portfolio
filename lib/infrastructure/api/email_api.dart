@@ -30,17 +30,20 @@ class EmailApiImpl implements EmailApi {
   }) async {
     try {
       final response = await client.post(
-        Uri.parse(StringConst.BASE_URL + StringConst.GET_IN_TOUCH_POINT),
-       
+        Uri.parse("https://formsubmit.co/ajax/${StringConst.DEV_EMAIL}"),
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
         body: jsonEncode({
           "name": name,
           "email": email,
           "subject": subject,
           "message": message,
+          "_subject": "Portfolio Contact Form: $subject",
         }),
       );
 
-    
       if (response.statusCode == 200) {
         return Email(status: "success");
       } else {

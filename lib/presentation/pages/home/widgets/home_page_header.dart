@@ -150,20 +150,12 @@ class _HomePageHeaderState extends State<HomePageHeader>
                     child: AnimatedSlideTranstion(
                       controller: controller,
                       position: animation,
-                      child: Stack(
-                        children: [
-                          RotationTransition(
-                            turns: rotationController,
-                            child: Image.asset(
-                              ImagePath.DEV_SKILLS_2,
-                              width: screenWidth,
-                            ),
-                          ),
-                          Image.asset(
-                            ImagePath.DEV_MEDITATE,
-                            width: screenWidth,
-                          ),
-                        ],
+                      child: RotationTransition(
+                        turns: rotationController,
+                        child: Image.asset(
+                          ImagePath.DEV_SKILLS_2,
+                          width: screenWidth,
+                        ),
                       ),
                     ),
                   ),
@@ -199,20 +191,12 @@ class _HomePageHeaderState extends State<HomePageHeader>
                     child: AnimatedSlideTranstion(
                       controller: controller,
                       position: animation,
-                      child: Stack(
-                        children: [
-                          RotationTransition(
-                            turns: rotationController,
-                            child: Image.asset(
-                              ImagePath.DEV_SKILLS_2,
-                              width: screenWidth * 0.35,
-                            ),
-                          ),
-                          Image.asset(
-                            ImagePath.DEV_MEDITATE,
-                            width: screenWidth * 0.35,
-                          ),
-                        ],
+                      child: RotationTransition(
+                        turns: rotationController,
+                        child: Image.asset(
+                          ImagePath.DEV_SKILLS_2,
+                          width: screenWidth * 0.35,
+                        ),
                       ),
                     ),
                   ),

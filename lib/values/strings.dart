@@ -2,9 +2,9 @@ part of values;
 
 class StringConst {
   //strings
-  static const String APP_NAME = "David Legend Portfolio";
-  static const String APP_TITLE = "David Legend Portfolio";
-  static const String SITE_URL = "https://davidcobbina.com";
+  static const String APP_NAME = "Fahim Shakil Portfolio";
+  static const String APP_TITLE = "Fahim Shakil Portfolio";
+  static const String SITE_URL = "https://fahimshakil.tech";
 
   static const String HOME = "Home";
   static const String ABOUT = "About";
@@ -18,13 +18,13 @@ class StringConst {
   static const String PHONE_NUMBER = "Phone Number";
   static const String RESUME = "Resume";
   static const String CERTIFICATIONS = "Certifications";
-  static const String EMAIL_VALUE = "davidcobbina47@gmail.com";
+  static const String EMAIL_VALUE = "fahimshakil.swe@gmail.com";
 
   // Home Page
   static const String HI = "Hi,";
-  static const String DEV_INTRO = "I'm David.";
+  static const String DEV_INTRO = "I'm Fahim.";
   static const String DEV_TITLE = "Software Engineer.";
-  static const String DEV_DESC = "Mobile Engineer / Full Stack Developer / Cloud Devops";
+  static const String DEV_DESC = "Mobile Engineer / Full Stack Developer";
   static const String SEE_MY_WORKS = "See my works";
   static const String SCROLL_DOWN = "Scroll Down";
   static const String CRAFTED_WITH_LOVE = "Crafted with love.";
@@ -47,7 +47,7 @@ class StringConst {
   static const String MESSAGE_ERROR_MSG =
       "* Please enter something to send this form";
   static const String SEND_MESSAGE = "Send Message";
-  static const String COPYRIGHT = "©  2021  Built by  $DEV_NAME,";
+  static const String COPYRIGHT = "©  2026  Built by  $DEV_NAME, inspired by David Cobbina,";
   static const String DESIGNED_BY = "Designed by Julius G.";
   static const String DESIGN_LINK =
       "https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design";
@@ -68,11 +68,11 @@ class StringConst {
   static const String ABOUT_DEV_STORY_TITLE =
       "A little bit about myself.";
   static const String ABOUT_DEV_STORY_CONTENT_1 =
-      "I am full stack software engineer with great passion for building high quality applications. I have an extensive experience building frontend (mobile & web) and backend applications. I occasionally work as a tech consultant and I am enthusiastic about Devops & Cloud computing technologies.";
+      "I’m a Software Engineering graduate from Daffodil International University specializing in building high-performance cross-platform applications with Flutter and Dart. I enjoy transforming complex problems into clean, scalable solutions and intuitive user experiences.";
   static const String ABOUT_DEV_STORY_CONTENT_2 =
-      "I have a Masters in IT from Carnegie Mellon University where I majored in Software Engineering. I have strong technical skills as well as excellent interpersonal skills, which has enabled me to work & interact with clients all over the world.";
+      "My technical background is strengthened by communication skills developed through DIUMUN and competitive debating, helping me think critically, solve problems, and communicate effectively.";
   static const String ABOUT_DEV_STORY_CONTENT_3 =
-      "I am very great at finding solutions to problems and I have a very keen eye for details. I enjoy building fun/useful projects in my free time and open sourcing them. I am an avid reader, lover of all forms art & music, a big fan of poetry & I love travelling.";
+      "I’m also passionate about travel and food, which reflect my curiosity and attention to detail—qualities I bring to both development and learning.";
   static const String ABOUT_DEV_TECHNOLOGY = "Technology";
   static const String MOBILE_TECH = "Mobile Technologies";
   static const String OTHER_TECH = "Web / Cloud / Design Technologies";
@@ -111,8 +111,8 @@ class StringConst {
   static const String VIEW = "View";
   static const String COMING_SOON = "COMING SOON !!";
   static const String BUILT_WITH_FLUTTER = "Built using ";
-  static const String DEV_EMAIL = "davidcobbina47@gmail.com";
-  static const String EMAIL_URL = "mailto:<$DEV_EMAIL>?subject=&body=";
+  static const String DEV_EMAIL = "fahimshakil.swe@gmail.com";
+  static const String EMAIL_URL = "mailto:fahimshakil.swe@gmail.com?subject=&body=";
 
   static const String KEY_SKILLS = "KEY SKILLS";
   static const String EXPERIENCE_2 = "EXPERIENCE";
@@ -124,11 +124,11 @@ class StringConst {
   static const String PROJECT_NAME = "Project Name";
 
   static const String INTRO = "Hi, my name is";
-  static const String DEV_NAME = "David Cobbina";
+  static const String DEV_NAME = "Fahim Shakil";
   static const String PUNCH_LINE = "I build things with flutter";
   static const String SPECIALITY = "FLUTTER DEV";
-  static const String DESIGNED_IN = "Made in Ghana with ";
-  static const String BUILT_BY = "Built by David Cobbina ";
+  static const String DESIGNED_IN = "Made in Bangladesh with ";
+  static const String BUILT_BY = "Built by Fahim Shakil ";
 
   
   //Form Hint Texts
@@ -169,13 +169,11 @@ class StringConst {
 
   //Socials
 
-  static const String GITHUB_URL = "https://github.com/david-legend";
-  static const String LINKED_IN_URL =
-      "https://www.linkedin.com/in/david-cobbina-7b0226119";
-  static const String TWITTER_URL = "https://twitter.com/DavidLegend47";
-  static const String INSTAGRAM_URL =
-      "https://www.instagram.com/david_legend_47";
-  static const String TELEGRAM_URL = "https://t.me/DavidLegend";
+  static const String GITHUB_URL = "https://github.com/FAHIMSHAKIL102";
+  static const String LINKED_IN_URL = "https://linkedin.com/in/fahim-shakil";
+  static const String TWITTER_URL = "https://x.com/FahimShakil_";
+  static const String INSTAGRAM_URL = "https://www.instagram.com/";
+  static const String TELEGRAM_URL = "https://t.me/";
 
   //Contacts
   static const String CONNECT = "Connect with me";
@@ -212,60 +210,85 @@ class StringConst {
   static const String ANDROID_BASICS = "Android Basics";
 
   //Experience
-  static const String CURRENT_MONTH_YEAR = "May 2020 - Current";
-  static const String STARTED_MONTH_YEAR = "May 2017";
+  static const String CURRENT_MONTH_YEAR = "January 2026 – June 2026";
+  static const String STARTED_MONTH_YEAR = "January 2025";
 
-  static const String COMPANY_2 = "Shrinq";
-  static const String COMPANY_2_URL = "https://shrinqghana.com/";
-  static const String POSITION_2 = "Software Engineer";
+  static const String COMPANY_1 = "Nikradix";
+  static const String COMPANY_1_URL = "https://fahimshakil.tech";
+  static const String POSITION_1 = "Flutter Developer Intern";
+  static const String COMPANY_1_ROLE_1 =
+      "Developed cross-platform mobile applications using Flutter and Dart for Android and iOS, following clean and maintainable coding practices.";
+  static const String COMPANY_1_ROLE_2 =
+      "Integrated REST APIs and third-party libraries while implementing Provider and BLoC for structured state management.";
+  static const String COMPANY_1_ROLE_3 =
+      "Converted Figma UI/UX designs into responsive Flutter interfaces and collaborated with backend developers and designers.";
+  static const String COMPANY_1_ROLE_4 =
+      "Debugged application issues and optimized performance to improve responsiveness and user experience.";
+  static const String LOCATION_1 = "Bangladesh";
+  static const String DURATION_1 = "January 2026 – June 2026";
+
+  static const String COMPANY_2 = "Genmorphics AI Solution";
+  static const String COMPANY_2_URL = "https://fahimshakil.tech";
+  static const String POSITION_2 = "AI Data Trainer — Annotator";
   static const String COMPANY_2_ROLE_1 =
-      "Built a mobile app to track the status of all requested fibre broadband for Vodafone Ghana using Java Android.";
+      "Annotated and created accurate human-generated data for AI training projects following project guidelines.";
   static const String COMPANY_2_ROLE_2 =
-      "Worked on a team of 2 to build an ID verification application using Java Android.";
+      "Reviewed and corrected annotations to ensure accuracy, consistency, quality, and data integrity.";
   static const String COMPANY_2_ROLE_3 =
-      "Developed and maintained client & in-house projects primarily using Javascript, React js, Next js, Express and Node js";
-  static const String LOCATION_2 = "Asylum Down - Accra";
-  static const String DURATION_2 = "April 2018 - June 2019";
-
-  static const String COMPANY_3 = "Bewsys";
-  static const String COMPANY_3_URL = "https://bewsys.com/";
-  static const String POSITION_3 = "Software Engineer";
-  static const String COMPANY_3_ROLE_1 =
-      "Worked in a team of 3 to design and implement backend infrastructure of an inmate management system for the National Prison of South Sudan.";
-  static const String COMPANY_3_ROLE_2 =
-      "Architected and implemented a mobile application for the Palestinian Agriculture Advisory System.";
-  static const String COMPANY_3_ROLE_3 =
-      "Modified existing software to correct errors, upgrade interfaces and improve performance.";
-  static const String LOCATION_3 = "East Legon - Accra";
-  static const String DURATION_3 = "August 2019 - April 2020";
-
-
-  static const String COMPANY_4 = "Brij Money";
-  static const String COMPANY_4_URL = "https://www.brij.money/";
-  static const String POSITION_4 = "Software Engineer Intern";
-  static const String COMPANY_4_ROLE_1 =
-      "Worked closely with designers & backend engineers to develop and ship merchants feature which allowed end users to purchase items from a merchant store on the Brij app.";
-  static const String COMPANY_4_ROLE_2 =
-      "Developed and shipped airtime & bundle purchasing feature on the Brij mobile app.";
-  static const String COMPANY_4_ROLE_3 =
-      "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across brij’s iOS and Android mobile apps.";
-  static const String LOCATION_4 = "Accra - Ghana";
-  static const String DURATION_4 = "June 2021 - Aug 2021";
-
-
-  static const String COMPANY_5 = "Consultant";
-  static const String COMPANY_5_URL = SITE_URL;
-  static const String POSITION_5 = "Software Engineer Consultant";
-  static const String COMPANY_5_ROLE_1 =
-      "Led engineering team to develop & ship a SaaS grid monitoring mobile application platform for Hive Power company in Switzerland.";
-  static const String COMPANY_5_ROLE_2 =
-      "Designed and built technology infrastructure for a leading Ghanaian Insurance company";
-  static const String COMPANY_5_ROLE_3 =
-      "Worked with GoFlow Services in India to improve the architecture of an already existing video streaming mobile application (BeThere).";
-  static const String LOCATION_5 = "Kigali - Rwanda";
-  static const String DURATION_5 = "May 2020 - Sept 2022";
+      "Completed tasks within deadlines, maintained confidentiality, and communicated with team members on requirements and corrections.";
+  static const String LOCATION_2 = "Bangladesh";
+  static const String DURATION_2 = "January 2025 – December 2025";
 
   //Portfolio, Projects
+  static const String SHOPIX = "Shopix";
+  static const String SHOPIX_PLATFORM = "Android / iOS.";
+  static const String SHOPIX_CATEGORY = "Ecommerce.";
+  static const String SHOPIX_SUBTITLE = "A scalable e-commerce mobile application.";
+  static const String SHOPIX_DETAIL =
+      "Implemented structured navigation, dependency injection, responsive UI, and multilingual localization. Developed a scalable e-commerce application using Flutter and Dart with Clean Architecture and BLoC/Cubit.";
+  static const String SHOPIX_TECH =
+      "Flutter, Dart, Clean Architecture, BLoC, GoRouter, ScreenUtil";
+  static const String SHOPIX_GITHUB_URL = "";
+
+  static const String NEWS_APP = "News App";
+  static const String NEWS_APP_PLATFORM = "Android / iOS.";
+  static const String NEWS_APP_CATEGORY = "News / Magazine.";
+  static const String NEWS_APP_SUBTITLE = "A Flutter news application.";
+  static const String NEWS_APP_DETAIL =
+      "Developed a Flutter news application that fetches current headlines and allows users to explore articles by source, category, country, and language. Integrated NewsAPI using HTTP with repository and view-model architecture and implemented BLoC for state management.";
+  static const String NEWS_APP_TECH =
+      "Flutter, Dart, NewsAPI, HTTP, MVVM, BLoC";
+  static const String NEWS_APP_GITHUB_URL =
+      "https://github.com/FAHIMSHAKIL102/Flutter-NEWS-App.git";
+
+  static const String FOOD_DELIVERY = "Food Delivery App";
+  static const String FOOD_DELIVERY_PLATFORM = "Android / iOS.";
+  static const String FOOD_DELIVERY_CATEGORY = "Food Delivery.";
+  static const String FOOD_DELIVERY_SUBTITLE =
+      "A Flutter-based food delivery mobile application.";
+  static const String FOOD_DELIVERY_DETAIL =
+      "Integrated Firebase authentication and state management to support a smooth user experience and scalable app structure. Developed a Flutter-based food delivery application with a clean, mobile-first interface for browsing food items, categories, prices, and descriptions.";
+  static const String FOOD_DELIVERY_TECH =
+      "Flutter, Dart, Firebase, Provider, Material Design";
+  static const String FOOD_DELIVERY_GITHUB_URL =
+      "https://github.com/FAHIMSHAKIL102/flutter_food_delivery_app.git";
+
+  static const String MINIMAL_SOCIAL_MEDIA = "Flutter Minimal Social Media App";
+  static const String MINIMAL_SOCIAL_MEDIA_GITHUB_URL =
+      "https://github.com/FAHIMSHAKIL102/flutter_minimal_social_media_app.git";
+
+  static const String COVID_TRACKER = "COVID-19 Tracker";
+  static const String COVID_TRACKER_GITHUB_URL =
+      "https://github.com/FAHIMSHAKIL102/flutter_covid19_app.git";
+
+  static const String MOVIE_APP = "Movie App";
+  static const String MOVIE_APP_GITHUB_URL =
+      "https://github.com/FAHIMSHAKIL102/flutter_movie_app.git";
+
+  static const String SNACK_GAME = "Snack Game";
+  static const String SNACK_GAME_GITHUB_URL =
+      "https://github.com/FAHIMSHAKIL102/flutter_snack_game.git";
+
   static const String PORTFOLIO_SITE_V2 = "Aerium V2";
   static const String PORTFOLIO_SITE_V2_PLATFORM = "Web";
   static const String PORTFOLIO_SITE_V2_CATEGORY = "Portfolio / CV.";

@@ -97,10 +97,10 @@ class Data {
       name: StringConst.EXPERIENCE,
       route: StringConst.EXPERIENCE_PAGE,
     ),
-    NavItemData(
-      name: StringConst.CERTIFICATIONS,
-      route: StringConst.CERTIFICATION_PAGE,
-    ),
+    // NavItemData(
+    //   name: StringConst.CERTIFICATIONS,
+    //   route: StringConst.CERTIFICATION_PAGE,
+    // ),
     NavItemData(name: StringConst.CONTACT, route: StringConst.CONTACT_PAGE),
   ];
 
@@ -120,25 +120,13 @@ class Data {
       iconData: FontAwesomeIcons.twitter.data,
       url: StringConst.TWITTER_URL,
     ),
-    SocialData(
-      name: StringConst.INSTAGRAM,
-      iconData: FontAwesomeIcons.instagram.data,
-      url: StringConst.INSTAGRAM_URL,
-    ),
-    SocialData(
-      name: StringConst.TELEGRAM,
-      iconData: FontAwesomeIcons.telegram.data,
-      url: StringConst.TELEGRAM_URL,
-    ),
   ];
 
   static List<String> mobileTechnologies = [
     "Android",
-    "Kotlin",
-    "Jetpack Compose",
     "Flutter",
-    "Dart"
-        "Java Android",
+    "Dart",
+    "Java Android",
   ];
 
   static List<String> otherTechnologies = [
@@ -152,21 +140,12 @@ class Data {
     "Git",
     "AWS",
     "Docker",
-    "Kubernetes",
     "Google Cloud",
-    "Azure",
-    "Travis CI",
-    "Circle CI",
     "Express",
-    "Chakra UI",
-    "Laravel",
-    "PHP",
     "SQL",
     "C++",
     "Firebase",
     "Figma",
-    "Adobe XD",
-    "Wordpress",
   ];
   static List<SocialData> socialData1 = [
     SocialData(
@@ -197,190 +176,84 @@ class Data {
       iconData: FontAwesomeIcons.twitter.data,
       url: StringConst.TWITTER_URL,
     ),
-    SocialData(
-      name: StringConst.INSTAGRAM,
-      iconData: FontAwesomeIcons.instagram.data,
-      url: StringConst.INSTAGRAM_URL,
-    ),
-    SocialData(
-      name: StringConst.TELEGRAM,
-      iconData: FontAwesomeIcons.telegram.data,
-      url: StringConst.TELEGRAM_URL,
-    ),
   ];
 
   static List<ProjectItemData> recentWorks = [
-    Projects.DISNEY_PLUS,
-    Projects.FLUTTER_CATALOG,
-    Projects.DROP,
-    Projects.ROAM,
-    Projects.LOGIN_CATALOG,
-    Projects.FOODY_BITE,
-    Projects.NIMBUS,
+    Projects.SHOPIX,
+    Projects.NEWS_APP,
+    Projects.FOOD_DELIVERY,
   ];
 
   static List<ProjectItemData> projects = [
-    Projects.DISNEY_PLUS,
-    Projects.FLUTTER_CATALOG,
-    Projects.DROP,
-    Projects.ROAM,
-    Projects.LOGIN_CATALOG,
-    Projects.FOODY_BITE,
-    Projects.NIMBUS,
-    Projects.OTP_TEXT_FIELD,
-    Projects.AERIUM,
-    Projects.AERIUM_V2,
-    Projects.OUTFITR,
+    Projects.SHOPIX,
+    Projects.NEWS_APP,
+    Projects.FOOD_DELIVERY,
   ];
 
   static List<NoteWorthyProjectDetails> noteworthyProjects = [
     NoteWorthyProjectDetails(
-      projectName: StringConst.UDAGRAM_IMAGE_FILTERING,
-      isPublic: true,
-      isOnPlayStore: false,
-      isWeb: false,
-      technologyUsed: StringConst.UDAGRAM_IMAGE_FILTERING_TECH,
-      projectDescription: StringConst.UDAGRAM_IMAGE_FILTERING_DETAIL,
-      gitHubUrl: StringConst.UDAGRAM_IMAGE_FILTERING_GITHUB_URL,
-      isLive: false,
-    ),
-    NoteWorthyProjectDetails(
-      projectName: StringConst.SERVERLESS_TODO,
-      isPublic: true,
-      isOnPlayStore: false,
-      isWeb: false,
-      technologyUsed: StringConst.SERVERLESS_TODO_TECH,
-      projectDescription: StringConst.SERVERLESS_TODO_DETAIL,
-      gitHubUrl: StringConst.SERVERLESS_TODO_GITHUB_URL,
-      isLive: false,
-    ),
-    NoteWorthyProjectDetails(
-      projectName: StringConst.PYTHON_ALGORITHMS,
-      isPublic: true,
-      isOnPlayStore: false,
-      isWeb: false,
-      technologyUsed: StringConst.PYTHON,
-      projectDescription: StringConst.PYTHON_ALGORITHMS_DETAIL,
-      gitHubUrl: StringConst.PYTHON_ALGORITHMS_GITHUB_URL,
-      isLive: false,
-    ),
-    NoteWorthyProjectDetails(
-      projectName: StringConst.PROGRAMMING_FOR_DATA_SCIENCE,
-      isPublic: true,
-      isOnPlayStore: false,
-      isWeb: false,
-      technologyUsed: StringConst.PYTHON,
-      projectDescription: StringConst.PROGRAMMING_FOR_DATA_SCIENCE_DETAIL,
-      gitHubUrl: StringConst.PROGRAMMING_FOR_DATA_SCIENCE_GITHUB_URL,
-      isLive: false,
-    ),
-    NoteWorthyProjectDetails(
-      projectName: StringConst.ONBOARDING_APP,
+      projectName: StringConst.MINIMAL_SOCIAL_MEDIA,
       isPublic: true,
       isOnPlayStore: false,
       isWeb: false,
       technologyUsed: StringConst.FLUTTER,
-      projectDescription: StringConst.ONBOARDING_APP_DETAIL,
-      gitHubUrl: StringConst.ONBOARDING_APP_GITHUB_URL,
+      projectDescription:
+          "A minimal social media application built using Flutter.",
+      gitHubUrl: StringConst.MINIMAL_SOCIAL_MEDIA_GITHUB_URL,
       isLive: false,
     ),
     NoteWorthyProjectDetails(
-      projectName: StringConst.FINOPP,
+      projectName: StringConst.COVID_TRACKER,
       isPublic: true,
       isOnPlayStore: false,
       isWeb: false,
       technologyUsed: StringConst.FLUTTER,
-      projectDescription: StringConst.FINOPP_DETAIL,
-      gitHubUrl: StringConst.FINOPP_GITHUB_URL,
+      projectDescription:
+          "Real-time COVID-19 tracking application built with Flutter.",
+      gitHubUrl: StringConst.COVID_TRACKER_GITHUB_URL,
       isLive: false,
     ),
     NoteWorthyProjectDetails(
-      projectName: StringConst.AMOR_APP,
+      projectName: StringConst.MOVIE_APP,
       isPublic: true,
       isOnPlayStore: false,
-      isWeb: true,
+      isWeb: false,
       technologyUsed: StringConst.FLUTTER,
-      projectDescription: StringConst.AMOR_APP_DETAIL,
-      gitHubUrl: StringConst.AMOR_APP_GITHUB_URL,
-      webUrl: StringConst.AMOR_APP_WEB_URL,
-      isLive: true,
+      projectDescription:
+          "A movie discovery and details mobile application built using Flutter.",
+      gitHubUrl: StringConst.MOVIE_APP_GITHUB_URL,
+      isLive: false,
+    ),
+    NoteWorthyProjectDetails(
+      projectName: StringConst.SNACK_GAME,
+      isPublic: true,
+      isOnPlayStore: false,
+      isWeb: false,
+      technologyUsed: StringConst.FLUTTER,
+      projectDescription:
+          "Classic Snake / Snack game crafted with Flutter and Dart.",
+      gitHubUrl: StringConst.SNACK_GAME_GITHUB_URL,
+      isLive: false,
     ),
   ];
 
   static List<CertificationData> certificationData = [
-    CertificationData(
-      title: StringConst.MSC_IT,
-      url: StringConst.CMU_CERT_URL,
-      image: ImagePath.CMU_MASTERS_CERT,
-      imageSize: 0.325,
-      awardedBy: StringConst.CMU,
-    ),
-    CertificationData(
-      title: StringConst.ASSOCIATE_ANDROID_DEV,
-      url: StringConst.ASSOCIATE_ANDROID_DEV_URL,
-      image: ImagePath.ASSOCIATE_ANDROID_DEV,
-      imageSize: 0.325,
-      awardedBy: StringConst.GOOGLE,
-    ),
-    CertificationData(
-      title: StringConst.CLOUD_DEVELOPER,
-      url: StringConst.CLOUD_DEVELOPER_URL,
-      image: ImagePath.CLOUD_DEVELOPER_CERT,
-      imageSize: 0.325,
-      awardedBy: StringConst.UDACITY,
-    ),
-    CertificationData(
-      title: StringConst.DATA_SCIENCE,
-      url: StringConst.DATA_SCIENCE_CERT_URL,
-      image: ImagePath.DATA_SCIENCE_CERT,
-      imageSize: 0.325,
-      awardedBy: StringConst.UDACITY,
-    ),
-    CertificationData(
-      title: StringConst.ANDROID_BASICS,
-      url: StringConst.ANDROID_BASICS_CERT_URL,
-      image: ImagePath.ANDROID_BASICS_CERT,
-      imageSize: 0.325,
-      awardedBy: StringConst.UDACITY,
-    ),
+    // Commented out - to be added later
   ];
 
   static List<ExperienceData> experienceData = [
     ExperienceData(
-      company: StringConst.COMPANY_5,
-      position: StringConst.POSITION_5,
-      companyUrl: StringConst.COMPANY_5_URL,
+      company: StringConst.COMPANY_1,
+      position: StringConst.POSITION_1,
+      companyUrl: StringConst.COMPANY_1_URL,
       roles: [
-        StringConst.COMPANY_5_ROLE_1,
-        StringConst.COMPANY_5_ROLE_2,
-        StringConst.COMPANY_5_ROLE_3,
+        StringConst.COMPANY_1_ROLE_1,
+        StringConst.COMPANY_1_ROLE_2,
+        StringConst.COMPANY_1_ROLE_3,
+        StringConst.COMPANY_1_ROLE_4,
       ],
-      location: StringConst.LOCATION_5,
-      duration: StringConst.DURATION_5,
-    ),
-    ExperienceData(
-      company: StringConst.COMPANY_4,
-      position: StringConst.POSITION_4,
-      companyUrl: StringConst.COMPANY_4_URL,
-      roles: [
-        StringConst.COMPANY_4_ROLE_1,
-        StringConst.COMPANY_4_ROLE_2,
-        StringConst.COMPANY_4_ROLE_3,
-      ],
-      location: StringConst.LOCATION_4,
-      duration: StringConst.DURATION_4,
-    ),
-    ExperienceData(
-      company: StringConst.COMPANY_3,
-      position: StringConst.POSITION_3,
-      companyUrl: StringConst.COMPANY_3_URL,
-      roles: [
-        StringConst.COMPANY_3_ROLE_1,
-        StringConst.COMPANY_3_ROLE_2,
-        StringConst.COMPANY_3_ROLE_3,
-      ],
-      location: StringConst.LOCATION_3,
-      duration: StringConst.DURATION_3,
+      location: StringConst.LOCATION_1,
+      duration: StringConst.DURATION_1,
     ),
     ExperienceData(
       company: StringConst.COMPANY_2,
@@ -398,6 +271,81 @@ class Data {
 }
 
 class Projects {
+  static ProjectItemData SHOPIX = ProjectItemData(
+    title: StringConst.SHOPIX,
+    subtitle: StringConst.SHOPIX_SUBTITLE,
+    platform: StringConst.SHOPIX_PLATFORM,
+    primaryColor: AppColors.drop,
+    image: ImagePath.DROP_COVER,
+    coverUrl: ImagePath.DROP_COVER,
+    navSelectedTitleColor: AppColors.dropSelectedNavTitle,
+    appLogoColor: AppColors.dropAppLogo,
+    projectAssets: [
+      ImagePath.DROP_DESC,
+      ImagePath.DROP_FLOW_CHART,
+      ImagePath.DROP_WIREFRAMES,
+      ImagePath.DROP_MINIMAL_DESIGN,
+      ImagePath.DROP_EASY_ACCESS,
+      ImagePath.DROP_SIMPLE,
+      ImagePath.DROP_THANKS,
+    ],
+    category: StringConst.SHOPIX_CATEGORY,
+    portfolioDescription: StringConst.SHOPIX_DETAIL,
+    isPublic: false,
+    isOnPlayStore: false,
+    technologyUsed: StringConst.SHOPIX_TECH,
+    gitHubUrl: StringConst.SHOPIX_GITHUB_URL,
+  );
+
+  static ProjectItemData NEWS_APP = ProjectItemData(
+    title: StringConst.NEWS_APP,
+    subtitle: StringConst.NEWS_APP_SUBTITLE,
+    platform: StringConst.NEWS_APP_PLATFORM,
+    primaryColor: AppColors.flutter_catalog,
+    image: ImagePath.FLUTTER_CATALOG_COVER,
+    coverUrl: ImagePath.FLUTTER_CATALOG_COVER,
+    navSelectedTitleColor: AppColors.flutterCatalogSelectedNavTitle,
+    appLogoColor: AppColors.flutterCatalogAppLogo,
+    projectAssets: [
+      ImagePath.FLUTTER_CATALOG_SCREENS,
+      ImagePath.FLUTTER_CATALOG_1,
+      ImagePath.FLUTTER_CATALOG_2,
+      ImagePath.FLUTTER_CATALOG_3,
+      ImagePath.FLUTTER_CATALOG_4,
+      ImagePath.FLUTTER_CATALOG_5,
+    ],
+    category: StringConst.NEWS_APP_CATEGORY,
+    portfolioDescription: StringConst.NEWS_APP_DETAIL,
+    isPublic: true,
+    isOnPlayStore: false,
+    technologyUsed: StringConst.NEWS_APP_TECH,
+    gitHubUrl: StringConst.NEWS_APP_GITHUB_URL,
+  );
+
+  static ProjectItemData FOOD_DELIVERY = ProjectItemData(
+    title: StringConst.FOOD_DELIVERY,
+    subtitle: StringConst.FOOD_DELIVERY_SUBTITLE,
+    platform: StringConst.FOOD_DELIVERY_PLATFORM,
+    primaryColor: AppColors.foodybite,
+    image: ImagePath.FOODY_BITE_COVER,
+    coverUrl: ImagePath.FOODY_BITE_COVER,
+    navTitleColor: AppColors.foodybiteNavTitle,
+    navSelectedTitleColor: AppColors.foodybiteSelectedNavTitle,
+    appLogoColor: AppColors.foodybiteAppLogo,
+    projectAssets: [
+      ImagePath.FOODY_BITE_HOME,
+      ImagePath.FOODY_BITE_STARTING_FLOW,
+      ImagePath.FOODY_BITE_HOME_FLOW,
+      ImagePath.FOODY_BITE_REVIEW_FLOW,
+      ImagePath.FOODY_BITE_TYPOGRAPHY,
+    ],
+    category: StringConst.FOOD_DELIVERY_CATEGORY,
+    portfolioDescription: StringConst.FOOD_DELIVERY_DETAIL,
+    isPublic: true,
+    isOnPlayStore: false,
+    technologyUsed: StringConst.FOOD_DELIVERY_TECH,
+    gitHubUrl: StringConst.FOOD_DELIVERY_GITHUB_URL,
+  );
   static ProjectItemData DISNEY_PLUS = ProjectItemData(
     title: StringConst.DISNEY_PLUS,
     subtitle: StringConst.DISNEY_PLUS,
